@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.152913">
+<testcase classname="To Validate the entire login Page" name="To Validate the Login Page using Valid Credentials" time="41.152913">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.loginsteps.test.LoginSteps.user_enters_in_Main_Page(LoginSteps.java:38)&#13;&#10;&#9;at ✽.user enters in Main Page(file:src/test/resources/FeatureFiles/LoginSteps.feature:7)&#13;&#10;"><![CDATA[Given User in Facebook Login Page...........................................passed
+When User Pass the Credentials in username and password.....................passed
+And User Click the Login button.............................................passed
+Then user enters in Main Page...............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.loginsteps.test.LoginSteps.user_enters_in_Main_Page(LoginSteps.java:38)
+	at ✽.user enters in Main Page(file:src/test/resources/FeatureFiles/LoginSteps.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
